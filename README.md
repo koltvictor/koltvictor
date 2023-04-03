@@ -20,6 +20,8 @@ I'm a big philomath and am continuously learning and trying new things.  I love 
 
 <br />
 <br />
+<hr />
+
 - 🔭 I’m currently working on a REACT NATIVE App
 - 🌱 I’m currently learning Python, AWS, MySQL, & Typescript 
 - 💬 Ask me about anything, I'm happy to help and collaborate with others.
