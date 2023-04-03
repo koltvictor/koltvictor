@@ -30,9 +30,9 @@ I'm a big philomath and am continuously learning and trying new things.  I love 
 - ⚡ Fun fact: I'm an avid gamer (CoD & Rainbow6), I'm a big outdoorsman, and I love to cook!
 - 😄 Pronouns: He/Him 
 
-#### You can check out my portfolio [here][website]
+### You can check out my portfolio [here][website]
 
-#### Or connect with me: 
+### Or connect with me: 
 
 [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/koltvictor)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/koltadams)
 
