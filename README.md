@@ -1,14 +1,17 @@
 # Hi, I'm Kolt 
 
-## I'm a full-stack software engineer, avid gamer and backpacker, and amateur cook!
+## I'm a full-stack software engineer
 
 I'm a big philomath and am continuously learning and trying new things.  I love language and mathematics, and software engineering is situated perfectly at the intersection of the two.  I'm always curious and I love to fail and learn from my mistakes. I
 
 Skills: REACT / NEXT / JS / RUBY & RAILS / HTML / CSS & SASS / POSTGRESQL & NOSQL / AWS
 
+<hr/>
+
 - 🔭 I’m currently working on a REACT NATIVE App
 - 🌱 I’m currently learning Python, AWS, MySQL, & Typescript 
-- 💬 Ask me about anything, I'm happy to help others.
+- 💬 Ask me about anything, I'm happy to help and collaborate with others.
+- ⚡ Fun fact: I'm an avid gamer (CoD & Rainbow6), and I love to cook
 - 😄 Pronouns: He/Him 
 
 ## You can check out my portfolio [here][website]
