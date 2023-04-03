@@ -28,7 +28,7 @@ I'm a big philomath and am continuously learning and trying new things.  I love 
 - ⚡ Fun fact: I'm an avid gamer (CoD & Rainbow6), and I love to cook
 - 😄 Pronouns: He/Him 
 
-## You can check out my portfolio [here][website]
+### You can check out my portfolio [here][website]
 
 <br />
 <br />
