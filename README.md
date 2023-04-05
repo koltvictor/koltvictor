@@ -25,9 +25,9 @@ I'm a big philomath and am continuously learning and trying new things.  I love 
 <hr />
 
 - 🔭 I’m currently working on a REACT NATIVE App
-- 🌱 I’m currently learning Python, AWS, MySQL & Typescript 
-- 💬 Ask me about anything, I'm happy to help and collaborate with others.
-- ⚡ Fun fact: I'm an avid gamer (CoD & Rainbow6), a big backpacker and outdoorsman, and I love to cook!
+- 🌱 I’m currently learning Python, MySQL & Typescript 
+- 💬 Ask me anything, I'm happy to help and collaborate with others.
+- ⚡ Fun facts: I'm an avid gamer (CoD & Rainbow6), a big backpacker and outdoorsman, and I love to cook!
 - 😄 Pronouns: He/Him 
 
 ### You can check out my portfolio [here][website]
