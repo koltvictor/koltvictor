@@ -30,7 +30,7 @@ I'm a big philomath and am continuously learning and trying new things.  I love 
 - ⚡ Fun facts: I'm an avid gamer (CoD & Rainbow6), a big backpacker and outdoorsman, and I love to cook!
 - 😄 Pronouns: He/Him 
 
-### You can check out my portfolio [here][target_blank, website]
+### You can check out my portfolio [here][website]
 
 ### Or connect with me: 
 
