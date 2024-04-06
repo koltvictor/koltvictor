@@ -27,7 +27,6 @@ I'm a curious philomath and continuously learn and try new things.  I love langu
 - 🔭 I’m currently working on a REACT NATIVE App utilising LangChain.js
 - 🌱 I’m currently learning Python, AWS & Typescript 
 - 💬 Ask me anything, I'm happy to help and collaborate with others.
-- ⚡ Fun facts: I'm an avid gamer (CoD & Rainbow6), a big backpacker and outdoorsman, and I love to cook!
 - 😄 Pronouns: He/Him 
 
 ### You can check out my portfolio [here][website]
