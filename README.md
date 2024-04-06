@@ -2,7 +2,7 @@
 
 ## I'm a full-stack software engineer
 
-I'm a big philomath and am continuously learning and trying new things.  I love language and mathematics, and software engineering is situated perfectly at the intersection of the two.  I'm always curious and I don't mind failing and learning from my mistakes.
+I'm a curious philomath and continuously learn and try new things.  I love language and mathematics, and software engineering is situated perfectly at the intersection of the two.
 
 ### Languages & Tools:
 
