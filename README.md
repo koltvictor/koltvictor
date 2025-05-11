@@ -22,11 +22,6 @@
 <br />
 <hr />
 
-- 🔭 I’m currently working on a REACT NATIVE App utilising LangChain.js
-- 🌱 I’m currently learning Python, AWS & Typescript 
-- 💬 Ask me anything, I'm happy to help and collaborate with others.
-- 😄 Pronouns: He/Him 
-
 ### You can check out my portfolio [here][website]
 
 ### Or connect with me: 
