@@ -2,8 +2,6 @@
 
 ## I'm a full-stack software engineer
 
-I'm a curious philomath and continuously learn and try new things.  I love language and mathematics, and software engineering is situated perfectly at the intersection of the two.
-
 ### Languages & Tools:
 
 <img align="left" alt="Visual Studio Code" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" style="padding-right:10px;" />
