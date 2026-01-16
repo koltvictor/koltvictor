@@ -12,7 +12,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 
 **Languages & Tools:**
 
-[keep your existing icon row]
+
 
 **Get in touch:**
 - Portfolio: [koltadams.com](https://koltadams.com)
