@@ -7,6 +7,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 ## Recent Work
 
 **[Kolt's Table](https://koltstable.com)** — A seasonal cooking platform I designed and built solo in six months.
+
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
 
