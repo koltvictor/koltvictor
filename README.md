@@ -13,7 +13,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 - Docker microservices with CI/CD, zero-downtime deploys
 
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
-
+<br/>
 [![npm](https://img.shields.io/npm/v/@koltvictor/env-doctor?color=cb3837&logo=npm)](https://www.npmjs.com/package/@koltvictor/env-doctor)
 - Scans source code for `process.env` usage
 - Compares against `.env.example` — surfaces missing, undocumented, and unused vars
