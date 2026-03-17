@@ -2,18 +2,23 @@
 I design and build software. Not one or the other — both.
 Principal Software Consultant based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
 ## Recent Work
-**[Kolt's Table](https://koltstable.com)** — A seasonal cooking platform I designed and built solo in six months.
-
+**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo.
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
+
+**AI features powered by Anthropic Claude:**
+- **The Pantry** — enter what's in your kitchen, Claude semantically normalizes and expands your ingredients, matches against the full recipe database, and returns ranked results with match percentage, matched ingredients, missing ingredients, match explanation, and a generated shopping list
+- **Natural language recipe search** — conversational queries ("something warming and quick for a weeknight") are interpreted by Claude and translated into structured filters in real time
+
+**Platform:**
 - 180KB production bundle (53% smaller than NYT Cooking)
 - Sub-50ms recipe search via PostgreSQL GIN indexes
 - 94/100 Lighthouse performance score
 - 60+ normalized PostgreSQL tables, zero technical debt
-- Docker microservices with CI/CD, zero-downtime deploys
+- Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
+- New Relic APM, Redis caching, Elasticsearch, Kibana
 
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
-<br/>
 [![npm](https://img.shields.io/npm/v/@koltvictor/env-doctor?color=cb3837&logo=npm)](https://www.npmjs.com/package/@koltvictor/env-doctor)
 - Scans source code for `process.env` usage
 - Compares against `.env.example` — surfaces missing, undocumented, and unused vars
@@ -32,6 +37,8 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
 ![Kibana](https://img.shields.io/badge/kibana-%23005571.svg?style=for-the-badge&logo=kibana&logoColor=white)
 ![New Relic](https://img.shields.io/badge/New%20Relic-1CE783?style=for-the-badge&logo=newrelic&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Anthropic%20Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
+
 ## Get In Touch
 - Portfolio: [koltadams.com](https://koltadams.com)
 - Email: kolt@koltadams.com
