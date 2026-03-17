@@ -3,6 +3,7 @@ I design and build software. Not one or the other — both.
 Principal Software Consultant based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
 ## Recent Work
 **[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo.
+<br/>
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
 
@@ -19,6 +20,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 - New Relic APM, Redis caching, Elasticsearch, Kibana
 
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
+<br/>
 [![npm](https://img.shields.io/npm/v/@koltvictor/env-doctor?color=cb3837&logo=npm)](https://www.npmjs.com/package/@koltvictor/env-doctor)
 - Scans source code for `process.env` usage
 - Compares against `.env.example` — surfaces missing, undocumented, and unused vars
