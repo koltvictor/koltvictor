@@ -1,8 +1,8 @@
 # Hi, I'm Kolt
 I design and build software. Not one or the other — both.
-Principal Software Consultant based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
+Fractional CTO & Product Engineer based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
 ## Recent Work
-**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo.
+**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo. 1,300+ commits.
 <br/>
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
@@ -23,7 +23,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 **Platform:**
 - 180KB production bundle (53% smaller than NYT Cooking)
 - Sub-50ms recipe search via PostgreSQL GIN indexes
-- 94/100 Lighthouse performance score
+- 96/100 Lighthouse performance scores across all metrics
 - 60+ normalized PostgreSQL tables, zero technical debt
 - Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
 - New Relic APM, Redis caching, Elasticsearch, Kibana
