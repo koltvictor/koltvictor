@@ -7,9 +7,18 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
 
-**AI features powered by Anthropic Claude:**
-- **The Pantry** — enter what's in your kitchen, Claude semantically normalizes and expands your ingredients, matches against the full recipe database, and returns ranked results with match percentage, matched ingredients, missing ingredients, match explanation, and a generated shopping list
-- **Natural language recipe search** — conversational queries ("something warming and quick for a weeknight") are interpreted by Claude and translated into structured filters in real time
+**AI — user-facing features (Anthropic Claude):**
+- **The Pantry** — enter what's in your kitchen, Claude semantically normalizes and expands your ingredients, matches against the full recipe database, and returns ranked results with match percentage, match explanations, and a generated shopping list
+- **Natural language recipe search** — conversational queries ("something warming and quick for a weeknight") interpreted by Claude and translated into structured filters in real time
+
+**AI — Platform Intelligence (15 autonomous jobs):**
+- Auto-featuring algorithm driven by Engagement Quality Score — ratings, analytics, favorites, and seasonal context with governance rules and one-click revert
+- Anonymous engagement analytics pipeline (zero PII) — time on page, scroll depth, view counts
+- Claude-drafted newsletters with editorial review panel, weekly digests, and daily summaries
+- Content analysis — recipe description polish, meta description optimization, internal linking suggestions
+- Content and pantry gap analysis — identifies missing recipes based on seasonal produce and site data
+- Trending detection, draft monitoring, and image generation via Google Gemini
+- Cron scheduler with live sync — toggle any job from the admin dashboard, no restart needed
 
 **Platform:**
 - 180KB production bundle (53% smaller than NYT Cooking)
@@ -40,6 +49,7 @@ Principal Software Consultant based in NYC. I either build products solo end-to-
 ![Kibana](https://img.shields.io/badge/kibana-%23005571.svg?style=for-the-badge&logo=kibana&logoColor=white)
 ![New Relic](https://img.shields.io/badge/New%20Relic-1CE783?style=for-the-badge&logo=newrelic&logoColor=white)
 ![Anthropic](https://img.shields.io/badge/Anthropic%20Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 ## Get In Touch
 - Portfolio: [koltadams.com](https://koltadams.com)
