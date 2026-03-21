@@ -20,6 +20,10 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - Trending detection, draft monitoring, and image generation via Google Gemini
 - Cron scheduler with live sync — toggle any job from the admin dashboard, no restart needed
 
+- **AI — Recipe Entry (two-stage):**
+- Paste raw recipe text → Sonnet parses ingredients/instructions in ~2s → Opus classifies across 100+ filter categories
+- Strict classification rules: only selects what's true as written, never speculative
+
 **Platform:**
 - 180KB production bundle (53% smaller than NYT Cooking)
 - Sub-50ms recipe search via PostgreSQL GIN indexes
