@@ -20,6 +20,16 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - Trending detection, draft monitoring, and image generation via Google Gemini
 - Cron scheduler with live sync — toggle any job from the admin dashboard, no restart needed
 
+**AI — SEO Intelligence (three-stage pipeline):**
+- Automated audit: title length, description quality, images, tags, duplicates
+- Claude proposes editorial fixes matching brand voice
+- Approval queue with side-by-side comparison, one-click apply to database
+
+**Governance & Approval System:**
+- Centralized review queue for all AI-proposed changes
+- Side-by-side current vs proposed comparison
+- Apply writes to database only after human approval, full audit trail
+
 **AI — Recipe Entry (two-stage):**
 - Paste raw recipe text → Sonnet parses ingredients/instructions in ~2s → Opus classifies across 100+ filter categories
 - Strict classification rules: only selects what's true as written, never speculative
