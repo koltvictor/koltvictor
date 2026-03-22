@@ -1,4 +1,3 @@
-cat > /mnt/user-data/outputs/github-profile-readme.md << 'ENDOFREADME'
 # Hi, I'm Kolt
 I design and build software. Not one or the other — both.
 Fractional CTO & Product Engineer based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
@@ -80,5 +79,3 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - Portfolio: [koltadams.com](https://koltadams.com)
 - Email: kolt@koltadams.com
 - LinkedIn: [linkedin.com/in/koltadams](https://linkedin.com/in/koltadams)
-ENDOFREADME
-echo "✅ done"
