@@ -2,7 +2,7 @@
 I design and build software. Not one or the other — both.
 Fractional CTO & Product Engineer based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
 ## Recent Work
-**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo. 1,450+ commits.
+**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo. 1,500+ commits.
 <br/>
 [![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
 [![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
@@ -17,27 +17,32 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - "What's in Season" living reference page with interactive season tabs, clickable produce grid, and filtered recipe display
 - Homepage redesign: seasonal hero, produce strip, curated recipes, editorial journal feature — 6 intentional sections, no redundancy
 
-**AI — Platform Intelligence (20 autonomous jobs):**
-- Auto-featuring algorithm driven by Engagement Quality Score — ratings, analytics, favorites, and seasonal context with governance rules and one-click revert
+**AI — Platform Intelligence (20 autonomous jobs, connected intelligence network):**
+- **Cross-job causal intelligence** — jobs trigger and inform each other through a dependency graph with tracked causal links (triggered, resolved, informed, validated). SEO audit triggers description polish; trending detection informs auto-featuring.
+- **Content lifecycle management** — recipes tracked through published → performing → featured → declining → archived with 7-day vs 30-day engagement moving averages, daily EQS snapshots, and linear regression decay projection predicting unfeaturing dates
+- **Competitive intelligence** — weekly Claude + web search scan of NYT Cooking, Bon Appétit, and Serious Eats for plant-forward content, cross-referenced against content library and zero-result search queries
+- **Engagement Quality Score (EQS)** — proprietary composite of ratings, analytics, favorites, scroll depth, time on page, and seasonal context with governance rules and one-click revert
+- **Newsletter drafting with Mailchimp integration** — Claude drafts editorial newsletters, Apply creates a Mailchimp campaign ready for review and send
+- **Internal linking with editorial merge** — AI identifies thematic connections between content, Apply writes to junction table, links merge into "More to Explore" sections alongside algorithmic pairings
+- **Confidence scoring** — Levenshtein-based change magnitude scoring on all AI-proposed edits with recently-edited penalty, performance adjustments, SERP preview mockups
+- **Real-time SSE event stream** — live activity indicators on the admin dashboard via Server-Sent Events with auto-reconnect
+- **Intelligence briefing** — daily Claude-generated 3-sentence platform briefing with composite health score (6 weighted dimensions) and vital signs strip
+- **Weekly intelligence report** — health trend, lifecycle distribution, EQS movers, job activity breakdown, causal chain count, approval throughput
+- **24-hour radial clock** — SVG visualization of job schedules and execution history with color-coded legend
+- **Image generation review** — Gemini-generated hero and seasonal images with full-screen review modal (Download/Regenerate/Dismiss)
 - Anonymous engagement analytics pipeline (zero PII) — time on page, scroll depth, view counts
-- Claude-drafted newsletters with editorial review panel, weekly digests, and daily summaries
-- Content analysis — recipe description polish, meta description optimization, internal linking suggestions
+- Content analysis — recipe description polish, meta description optimization with SERP preview
 - Content and pantry gap analysis — identifies missing recipes based on seasonal produce and site data
-- SEO audit — scans all content for title length, description quality, images, tags, duplicates
+- SEO three-stage pipeline: automated audit → Claude proposes editorial fixes → approval queue with side-by-side comparison
 - Codebase health scanner — dependency audit, security vulnerabilities, code quality metrics, database health
-- Trending detection, draft monitoring, and image generation via Google Gemini
-- Cron scheduler with live sync — toggle any job from the admin dashboard, no restart needed
-
-**AI — SEO Intelligence (three-stage pipeline):**
-- Automated audit: title length, description quality, images, tags, duplicates
-- Claude proposes editorial fixes matching brand voice
-- Approval queue with side-by-side comparison, one-click apply to database
+- Trending detection, draft monitoring, and cron scheduler with live sync
 
 **Governance & Approval System:**
-- Centralized review queue for all AI-proposed changes
-- Side-by-side current vs proposed comparison
+- Centralized review queue for all AI-proposed changes with keyboard navigation
+- Side-by-side current vs proposed comparison with confidence bars
 - Apply writes to database only after human approval, full audit trail
-- Newsletter, SEO fixes, and description rewrites all flow through the same queue
+- Newsletter → Mailchimp, SEO fixes → recipe DB, internal links → junction table, descriptions → recipe DB
+- Jobs without functional apply gracefully acknowledge without error
 
 **AI — Recipe Entry (two-stage):**
 - Paste raw recipe text → Sonnet parses ingredients/instructions in ~2s → Opus classifies across 100+ filter categories
@@ -47,7 +52,7 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - 180KB production bundle (53% smaller than NYT Cooking)
 - Sub-50ms recipe search via PostgreSQL GIN indexes
 - 96/100 Lighthouse performance scores across all metrics
-- 44 normalized PostgreSQL tables, zero technical debt
+- 60+ normalized PostgreSQL tables, zero technical debt
 - User dashboard with engagement stats, searchable favorites, dietary preferences
 - Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
 - New Relic APM, Redis caching, Elasticsearch, Kibana
