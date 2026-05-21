@@ -57,7 +57,9 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
 - New Relic APM, Redis caching, Elasticsearch, Kibana
 
-### Inkling — AI-native mental-health screening (iOS, TestFlight beta)
+  <hr/>
+
+### [Inkling](https://inklingapp.org) — AI-native mental-health screening (iOS, TestFlight beta)
 
 A native iOS app that helps people decide whether what they're experiencing is
 worth a professional conversation. Screening and orientation — never diagnosis.
@@ -78,7 +80,8 @@ worth a professional conversation. Screening and orientation — never diagnosis
 
 Native · React Native · Expo · TypeScript · Cloudflare Workers · Anthropic Claude (Opus 4.7)
 
-→ inklingapp.org
+
+<hr/>
 
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
 <br/>
