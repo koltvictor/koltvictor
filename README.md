@@ -57,6 +57,28 @@ Fractional CTO & Product Engineer based in NYC. I either build products solo end
 - Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
 - New Relic APM, Redis caching, Elasticsearch, Kibana
 
+  ### Inkling — AI-native mental-health screening (iOS, TestFlight beta)
+
+A native iOS app that helps people decide whether what they're experiencing is
+worth a professional conversation. Screening and orientation — never diagnosis.
+
+**AI architecture (Anthropic Claude, two-stage):**
+- Free-text routing — a person describes what's going on in their own words;
+  Claude routes them to the right validated screener, flags out-of-scope input,
+  and surfaces crisis support when the language warrants it
+- Result interpretation — completed screeners (GAD-7, PHQ-9, PCL-5, and others)
+  become plain-language, non-diagnostic reflections that point toward next steps
+
+**Safety & evaluation (the actual hard part):**
+- Eval-driven: 46-profile classification suite, 100% passing, with a dedicated
+  crisis-detection floor that held through every prompt revision
+- 42 out-of-scope / false-positive guard profiles to prevent misrouting
+- Crisis support reachable from every screen
+- Privacy-first: accountless, zero PII, on-device storage
+
+Native · React Native · Expo · TypeScript · Cloudflare Workers · Anthropic Claude (Opus 4.7)
+→ inklingapp.org
+
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
 <br/>
 [![npm](https://img.shields.io/npm/v/@koltvictor/env-doctor?color=cb3837&logo=npm)](https://www.npmjs.com/package/@koltvictor/env-doctor)
