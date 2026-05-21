@@ -77,6 +77,7 @@ worth a professional conversation. Screening and orientation — never diagnosis
 - Privacy-first: accountless, zero PII, on-device storage
 
 Native · React Native · Expo · TypeScript · Cloudflare Workers · Anthropic Claude (Opus 4.7)
+
 → inklingapp.org
 
 **[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
