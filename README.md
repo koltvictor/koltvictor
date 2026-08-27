@@ -17,9 +17,7 @@ Fractional CTO and product engineer, Las Vegas / New York. I build products solo
 
 ### Kolt's Table — [koltstable.com](https://koltstable.com)
 
-Seasonal cooking platform. Solo, six months, 1,500+ commits.
-[![Frontend CI/CD](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
-[![Backend CI/CD](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
+Seasonal cooking platform. Solo, six months, 1,500+ commits. CI/CD on GitHub Actions, zero-downtime deploys. Source is private; the product is not.
 
 - **The site rotates itself.** A seasonal config drives homepage, navigation, produce guides, and editorial by month. No manual updates.
 - **20-job intelligence network, not 20 crons.** Jobs trigger and inform each other through a dependency graph with tracked causal links (SEO audit → description polish; trending detection → auto-feature). Content lifecycle uses 7d/30d engagement moving averages and linear-regression decay to predict unfeature dates.
