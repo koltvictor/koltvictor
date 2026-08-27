@@ -1,112 +1,74 @@
-# Hi, I'm Kolt
-I design and build software. Not one or the other — both.
-Fractional CTO & Product Engineer based in NYC. I either build products solo end-to-end, or architect solutions and lead engineering teams through delivery.
-## Recent Work
-**[Kolt's Table](https://koltstable.com)** — A seasonal, plant-forward cooking platform designed and built solo. 1,500+ commits.
-<br/>
-[![Frontend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
-[![Backend CI/CD Pipeline](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
+# Kolt Adams
 
-**AI — user-facing features (Anthropic Claude):**
-- **The Pantry** — enter what's in your kitchen, Claude semantically normalizes and expands your ingredients, matches against the full recipe database, and returns ranked results with match percentage, match explanations, and a generated shopping list. Interactive homepage teaser drives traffic directly into the feature.
-- **Natural language recipe search** — conversational queries ("something warming and quick for a weeknight") interpreted by Claude and translated into structured filters in real time
-- **Ingredient-aware search with synonym expansion** — searches actual recipe ingredients, not just titles/descriptions. Synonym groups (spring onion = scallion = green onion, cilantro = coriander, + 10 more) ensure comprehensive results
+I treat trust as an engineering problem.
 
-**Seasonal Intelligence Engine:**
-- Site-wide seasonal data config drives homepage, navigation, produce guides, and founder's note — all rotate automatically by month, zero manual updates
-- "What's in Season" living reference page with interactive season tabs, clickable produce grid, and filtered recipe display
-- Homepage redesign: seasonal hero, produce strip, curated recipes, editorial journal feature — 6 intentional sections, no redundancy
+Fractional CTO and product engineer, Las Vegas / New York. I build products solo end-to-end, or architect them and lead the team that ships them. Full case studies at [koltadams.com](https://koltadams.com) — this page is the engineer's cut.
 
-**AI — Platform Intelligence (20 autonomous jobs, connected intelligence network):**
-- **Cross-job causal intelligence** — jobs trigger and inform each other through a dependency graph with tracked causal links (triggered, resolved, informed, validated). SEO audit triggers description polish; trending detection informs auto-featuring.
-- **Content lifecycle management** — recipes tracked through published → performing → featured → declining → archived with 7-day vs 30-day engagement moving averages, daily EQS snapshots, and linear regression decay projection predicting unfeaturing dates
-- **Competitive intelligence** — weekly Claude + web search scan of NYT Cooking, Bon Appétit, and Serious Eats for plant-forward content, cross-referenced against content library and zero-result search queries
-- **Engagement Quality Score (EQS)** — proprietary composite of ratings, analytics, favorites, scroll depth, time on page, and seasonal context with governance rules and one-click revert
-- **Newsletter drafting with Mailchimp integration** — Claude drafts editorial newsletters, Apply creates a Mailchimp campaign ready for review and send
-- **Internal linking with editorial merge** — AI identifies thematic connections between content, Apply writes to junction table, links merge into "More to Explore" sections alongside algorithmic pairings
-- **Confidence scoring** — Levenshtein-based change magnitude scoring on all AI-proposed edits with recently-edited penalty, performance adjustments, SERP preview mockups
-- **Real-time SSE event stream** — live activity indicators on the admin dashboard via Server-Sent Events with auto-reconnect
-- **Intelligence briefing** — daily Claude-generated 3-sentence platform briefing with composite health score (6 weighted dimensions) and vital signs strip
-- **Weekly intelligence report** — health trend, lifecycle distribution, EQS movers, job activity breakdown, causal chain count, approval throughput
-- **24-hour radial clock** — SVG visualization of job schedules and execution history with color-coded legend
-- **Image generation review** — Gemini-generated hero and seasonal images with full-screen review modal (Download/Regenerate/Dismiss)
-- Anonymous engagement analytics pipeline (zero PII) — time on page, scroll depth, view counts
-- Content analysis — recipe description polish, meta description optimization with SERP preview
-- Content and pantry gap analysis — identifies missing recipes based on seasonal produce and site data
-- SEO three-stage pipeline: automated audit → Claude proposes editorial fixes → approval queue with side-by-side comparison
-- Codebase health scanner — dependency audit, security vulnerabilities, code quality metrics, database health
-- Trending detection, draft monitoring, and cron scheduler with live sync
+| System | State | Evidence |
+|---|---|---|
+| [koltstable.com](https://koltstable.com) | live | 180 KB bundle · 96 Lighthouse · search <50 ms |
+| Toren | private beta | 100 interactions · 41 substances · clinician-gated |
+| [inklingapp.org](https://inklingapp.org) | TestFlight | 46/46 eval profiles · 0 personal data |
+| [lopudmanagement.com](https://lopudmanagement.com) | live | static · 0 runtime dependencies |
 
-**Governance & Approval System:**
-- Centralized review queue for all AI-proposed changes with keyboard navigation
-- Side-by-side current vs proposed comparison with confidence bars
-- Apply writes to database only after human approval, full audit trail
-- Newsletter → Mailchimp, SEO fixes → recipe DB, internal links → junction table, descriptions → recipe DB
-- Jobs without functional apply gracefully acknowledge without error
+*As of Aug 2026.*
 
-**AI — Recipe Entry (two-stage):**
-- Paste raw recipe text → Sonnet parses ingredients/instructions in ~2s → Opus classifies across 100+ filter categories
-- Strict classification rules: only selects what's true as written, never speculative
+---
 
-**Platform:**
-- 180KB production bundle (53% smaller than NYT Cooking)
-- Sub-50ms recipe search via PostgreSQL GIN indexes
-- 96/100 Lighthouse performance scores across all metrics
-- 60+ normalized PostgreSQL tables, zero technical debt
-- User dashboard with engagement stats, searchable favorites, dietary preferences
-- Full CI/CD pipeline — Docker, GitHub Actions, zero-downtime deploys
-- New Relic APM, Redis caching, Elasticsearch, Kibana
+### Kolt's Table — [koltstable.com](https://koltstable.com)
 
-  <hr/>
+Seasonal cooking platform. Solo, six months, 1,500+ commits.
+[![Frontend CI/CD](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/frontend_ci_cd.yml)
+[![Backend CI/CD](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml/badge.svg)](https://github.com/koltvictor/kolts-table/actions/workflows/backend_ci_cd.yml)
 
-### [Inkling](https://inklingapp.org) — AI-native mental-health screening (iOS, TestFlight beta)
+- **The site rotates itself.** A seasonal config drives homepage, navigation, produce guides, and editorial by month. No manual updates.
+- **20-job intelligence network, not 20 crons.** Jobs trigger and inform each other through a dependency graph with tracked causal links (SEO audit → description polish; trending detection → auto-feature). Content lifecycle uses 7d/30d engagement moving averages and linear-regression decay to predict unfeature dates.
+- **Every AI write is gated.** All proposals land in one review queue with side-by-side diff, Levenshtein-based change-magnitude confidence scoring, and a full audit trail. Apply writes to the database only after human approval.
+- **Two-stage recipe entry.** Sonnet parses raw text in ~2 s; Opus classifies across 100+ filters under strict only-what's-written rules.
+- **Search.** Ingredient-aware with synonym groups, plus Claude-interpreted natural-language queries compiled to structured filters. Sub-50 ms via PostgreSQL GIN indexes.
+- **Platform.** 180 KB production bundle (NYT Cooking ships 380). 60+ normalized tables. Docker + GitHub Actions zero-downtime deploys. Redis, Elasticsearch, New Relic.
 
-A native iOS app that helps people decide whether what they're experiencing is
-worth a professional conversation. Screening and orientation — never diagnosis.
+React 19 · TypeScript · Node · PostgreSQL · Redis · Docker · Claude · Gemini
 
-**AI architecture (Anthropic Claude, two-stage):**
-- Free-text routing — a person describes what's going on in their own words;
-  Claude routes them to the right validated screener, flags out-of-scope input,
-  and surfaces crisis support when the language warrants it
-- Result interpretation — completed screeners (GAD-7, PHQ-9, PCL-5, and others)
-  become plain-language, non-diagnostic reflections that point toward next steps
+---
 
-**Safety & evaluation (the actual hard part):**
-- Eval-driven: 46-profile classification suite, 100% passing, with a dedicated
-  crisis-detection floor that held through every prompt revision
-- 42 out-of-scope / false-positive guard profiles to prevent misrouting
-- Crisis support reachable from every screen
-- Privacy-first: accountless, zero PII, on-device storage
+### Toren
 
-Native · React Native · Expo · TypeScript · Cloudflare Workers · Anthropic Claude (Opus 4.7)
+Native iOS supplement and longevity tracker. Private beta.
 
+- **Content is AI-drafted, clinician-gated, schema-enforced.** A database-level constraint makes it structurally impossible to publish a high-severity interaction warning backed only by preliminary evidence. The invariant lives in the migration, not in reviewer discretion.
+- **100 published interaction records across 41 substances**, each reviewed by a licensed physician. Seven of 107 were retracted and the systematic errors behind them fixed at the source. Pharmacist completeness review gates public launch.
+- **Nightly biometric ingestion** from Oura and Apple HealthKit, with per-source retention honoring each provider's data terms.
+- **Evidence-graded** — every claim carries its evidence level, and the UI shows it.
 
-<hr/>
+SwiftUI · HealthKit · Node · PostgreSQL · Cloudflare Access · Claude
 
-**[env-doctor](https://www.npmjs.com/package/@koltvictor/env-doctor)** — Zero-dependency CLI that diagnoses environment variable issues in any Node.js project.
-<br/>
+---
+
+### Inkling — [inklingapp.org](https://inklingapp.org)
+
+Mental-health screening orientation. Helps someone decide whether what they're feeling is worth a professional conversation. Never a diagnosis.
+
+- **Two model stages.** Free-text routing to a validated screener (GAD-7, PHQ-9, PCL-5, others) or straight to crisis support; then plain-language, non-diagnostic reflection of results.
+- **Eval-driven.** 46-profile classification suite at 100%, with a crisis-detection floor that held through every prompt revision and 42 out-of-scope guards against misrouting. Prompts that didn't clear the floor didn't ship.
+- **Accountless, on-device, zero PII.** Crisis support one tap from every screen.
+
+React Native · Expo · TypeScript · Cloudflare Workers · Claude
+
+---
+
+### Lopud Management — [lopudmanagement.com](https://lopudmanagement.com)
+
+Client work under a hard identity-guideline brief. No framework, no analytics, no cookie banner. Static files, a Makefile, and a Playwright screenshot-diff verifier so a stylesheet change can't regress a page nobody looked at.
+
+---
+
+### env-doctor — [npm](https://www.npmjs.com/package/@koltvictor/env-doctor)
+
 [![npm](https://img.shields.io/npm/v/@koltvictor/env-doctor?color=cb3837&logo=npm)](https://www.npmjs.com/package/@koltvictor/env-doctor)
-- Scans source code for `process.env` usage
-- Compares against `.env.example` — surfaces missing, undocumented, and unused vars
-- Exit code `1` on issues, making it CI-pipeline friendly
 
-## Tech Stack
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
-![Kibana](https://img.shields.io/badge/kibana-%23005571.svg?style=for-the-badge&logo=kibana&logoColor=white)
-![New Relic](https://img.shields.io/badge/New%20Relic-1CE783?style=for-the-badge&logo=newrelic&logoColor=white)
-![Anthropic](https://img.shields.io/badge/Anthropic%20Claude-D97706?style=for-the-badge&logo=anthropic&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
+Zero-dependency CLI. Scans source for `process.env` usage, diffs against `.env.example`, reports missing, undocumented, and unused vars. Exits `1` on issues, so it drops into CI.
 
-## Get In Touch
-- Portfolio: [koltadams.com](https://koltadams.com)
-- Email: kolt@koltadams.com
-- LinkedIn: [linkedin.com/in/koltadams](https://linkedin.com/in/koltadams)
+---
+
+**kolt@koltadams.com** · [koltadams.com](https://koltadams.com) · [LinkedIn](https://linkedin.com/in/koltadams)
